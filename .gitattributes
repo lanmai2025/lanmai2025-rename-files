@@ -1,0 +1,17 @@
+* text=auto
+
+# Windows 脚本保持 CRLF，避免 cmd 解析异常
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+
+# Python / Markdown 统一 LF
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+
+# 二进制
+*.exe binary
+*.ico binary
+*.png binary
+*.docx binary

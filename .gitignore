@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller 构建中间产物
+build/
+dist/
+installer_build/
+installer_dist/
+_payload/
+*.spec
+
+# 构建输出（安装包发 Releases，不进版本库）
+result/
+
+# 本机运行时产物与个人数据（切勿提交）
+改名日志/
+测试样例/
+_tmp/
+
+# 编辑器 / 系统垃圾
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
